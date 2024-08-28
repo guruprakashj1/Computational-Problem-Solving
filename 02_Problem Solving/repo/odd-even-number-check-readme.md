@@ -36,3 +36,53 @@ Let's say the given number is 7:
 4. Print "ODD"
 
 This procedure works for any integer, positive or negative.
+
+# Computational Problem Solving: Prime Number Checker
+
+## 1. Understand the Problem
+- Input: An integer number
+- Output: Determine if the number is prime or not
+- A prime number is only divisible by 1 and itself
+
+## 2. Plan the Solution
+- We need to check if the number is divisible by any number from 2 to the square root of the input
+- If it's divisible by any of these numbers, it's not prime
+- Special cases: numbers less than or equal to 1 are not prime
+
+## 3. Design the Algorithm
+1. Input a number
+2. If the number is less than or equal to 1, it's not prime
+3. For numbers from 2 to the square root of the input:
+   - If the input is divisible by any of these numbers, it's not prime
+4. If we've checked all numbers and found no divisors, the number is prime
+
+## 4. Implement the Solution
+Here's the Python code implementing this algorithm:
+
+```python
+num = int(input("enter a number: "))
+flag = False
+if num > 1:
+    for i in range(2, int(num**0.5) + 1):
+        if (num % i) == 0:
+            flag = True
+            break
+if flag:
+    print(num, "is not a prime number")
+else:
+    print(num, "is a prime number")
+```
+
+## 5. Test the Solution
+- Test with prime numbers: 2, 3, 5, 7, 11, 23
+- Test with non-prime numbers: 4, 6, 8, 9, 15
+- Test edge cases: 0, 1, negative numbers
+
+## 6. Optimize and Refine
+- The current solution is efficient as it only checks up to the square root of the number
+- We could further optimize by checking only odd numbers after 2, as even numbers (except 2) are never prime
+
+## 7. Reflect and Explain
+- This solution uses a flag variable to keep track of whether a divisor was found
+- The range in the for loop goes up to int(num**0.5) + 1 to include the square root in the check
+- The algorithm has a time complexity of O(√n), which is efficient for most practical purposes
