@@ -1,3 +1,7 @@
+Author: Guruprakash J  
+Email: j_guruprakash@cb.amrita.edu  
+Course: Computational Problem Solving - ver G
+
 # 2- Primitive Types in Python
 
 ## Introduction
