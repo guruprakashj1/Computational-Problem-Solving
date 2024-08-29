@@ -1,3 +1,7 @@
+Author: Guruprakash J  
+Email: j_guruprakash@cb.amrita.edu  
+Course: Computational Problem Solving - ver G
+
 # What is a Keyword ? 
 Keywords are the reserved words in Python. We cannot use a keyword as a variable name, function name or any other identifier. They are used to define the syntax and structure of the Python language. In Python, keywords are case sensitive.
 
