@@ -14,12 +14,13 @@ Iterables are a fundamental concept in Python programming. An iterable is any Py
    - An object that can be looped over or iterated upon
 
 2. **Common Built-in Iterables:**
-   - Lists
-   - Tuples
-   - Strings
-   - Dictionaries
-   - Sets
-   - Files
+- [Lists](./Lists)
+- [Tuples](./Tuples)
+- [Strings](./Strings)
+- [Dictionaries](./Dictionaries)
+- [Sets](./Sets)
+- [Files](./Files)
+
   
 ## 1. Lists
 
