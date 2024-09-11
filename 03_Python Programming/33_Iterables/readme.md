@@ -15,10 +15,10 @@ Iterables are a fundamental concept in Python programming. An iterable is any Py
 
 2. **Common Built-in Iterables:**
 - [Lists](List)
-- [Tuples](Tuples)
+- [Tuples](Tuple)
 - [Strings](Strings)
-- [Dictionaries](Dictionaries)
-- [Sets](Sets)
+- [Dictionaries](Dictionary)
+- [Sets](Set)
 - [Files](Files)
 
   
