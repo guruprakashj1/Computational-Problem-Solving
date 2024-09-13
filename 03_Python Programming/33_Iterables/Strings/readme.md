@@ -11,8 +11,15 @@ In Python, strings are sequences of characters and are iterable. This means you 
 ## Common Operations:
 - Accessing characters: `string[index]`
 - Slicing: `string[start:end:step]`
+    - Key Slicing Notation:
+    [start:stop:step] is the general form of slicing.
+    start: The index to begin the slice (inclusive).
+    stop: The index to stop the slice (exclusive).
+    step: The stride or step value (default is 1 for forward movement).
 - Iteration: `for char in string:`
 - String methods: `lower()`, `upper()`, `strip()`, `split()`, etc.
+
+
 
 ## Use Cases:
 - Text processing
